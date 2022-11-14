@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/иконки/логоико.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reviewsslider.css">
+    <link rel="stylesheet" href="./modals.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title> Педагогическое агентство Гувернер </title>
+</head>
+<body>
+    <header id="main_header">
+        <input type="checkbox" id="burger">
+        <label for="burger">
+            <svg class="svgburger" width="30" height="30" fill="none" viewBox="0 0 24 24"
+             class="iBRIKg" style="margin-top: 6px; ">
+             <rect x="3" y="4" width="18" height="2" rx="1" fill="#fff"></rect>
+             <rect x="3" y="11" width="18" height="2" rx="1" fill="#fff"></rect>
+             <rect x="3" y="18" width="18" height="2" rx="1" fill="#fff"></rect>
+            </svg>
+        </label>
+        <nav id = "menu">
+            <ul id="header_menu">
+                <a href="./index.html"><img id="logo" src="./img/logo-PhotoRoom.png" alt="Лого" style="width: 120px; margin-right: 20px;"></a>
+                <a href="#ourservices"><li>Заказать персонал</li></a> 
+                <a href="#price"><li>Цены</li></a> 
+                <a href="./polezonoe.html"><li>О нас</li></a>
+                <a href="./job.html"><li>Вакансии</li></a>
+                <a href="#reviews"><li>Отзывы</li></a> 
+                <a href="#contacts"><li>Контакты</li></a> 
+            </ul>
+        </nav>
+        <section class="header_bg_photo">
+            Педагогическое агентство “Гувернер” — это первое агентство по 
+            подбору персонала  для дома созданное в Нижнем Новгороде в октябре 1995 года.
+            За эти годы накоплен огромный опыт по работе с клиентами.
+            Больше, чем за 20 лет работы, выполнено более 15 000 заказов клиентов, трудоустроено несколько тысяч работников
+        </section>
+    </header>
+    <main>
+        <div class="advantages">
+            <div class="mainquestion"><h1>Почему стоит выбрать именно нас?</h1></div>
+                <div class="advantages_blocks">
+                    <div>
+                        <span><img src="./img/иконки/icons8-цель-100.png" alt=""></span>
+                        <p>Бережное отношение <br> к пожеланиям клиента, к его времени и нервам</p>
+                    </div>
+                    <div>
+                        <span><img src="./img/иконки/icons8-переговорная-100.png" alt=""></span>
+                        <p>Гарантированная бесплатная замена сотрудника до 3 раз вне зависимости от причины</p>
+                     </div>
+                     <div>
+                        <span><img src="./img/иконки/icons8-конфиденциальность-100.png" alt=""></span>
+                        <p>Конфиденциальность и безопасность персональных данных наших клиентов</p>
+                    </div>
+                    <div>
+                        <span><img src="./img/иконки/icons8-документы-100.png" alt=""></span>
+                        <p>Юридическая помощь в составлении договоров <br><br></p>
+                    </div>
+                    <div>
+                        <span><img src="./img/иконки/icons8-доверие-100.png" alt=""></span>
+                        <p>За более чем 20 летний опыт работы нам доверились более 15000 клиентов</p>
+                    </div>
+                    <div>
+                        <span><img src="./img/иконки/icons8-гарантия-100-2.png" alt=""></span>
+                        <p>В основе Агентства лежит надежность и высокая квалификация персонала</p><br> <br> <br>
+                    </div>
+
+                </div>
+        </div><hr>
+
+        <div class="ourservices" id= "ourservices">
+            <div class="ourservices_title">
+                Наши услуги
+            </div>
+            
+            <div class="ourservices-items">
+
+                <a href="#modal_nynya" class="modal__link"> 
+                    <div class="ourservices-items-blocks">
+                        <img src="./img/услуги/няня5.jpg" alt="Няни">
+                        <p>Няни </p>
+                    </div>
+                </a>
+
+                <a href="#modal_nynya_grud" class="modal__link"> 
+                    <div class="ourservices-items-blocks novisibleblocks1 ">
+                        <img src="./img/услуги/няня грудничкаа.jpg" alt="Няня для грудничка">
+                        <p> Няня для грудничка </p>
+                    </div>
+                </a>
+
+                <a href="#modal_guverner" class="modal__link">
+                    <div class="ourservices-items-blocks novisibleblocks2 ">
+                        <img src="./img/услуги/гувернер.jpg" alt="Няня для ребенка до 3-х лет">
+                        <p>  Няня для ребенка до 3-х лет </p>
+                    </div>
+                </a>
+
+                <a href="#modal_nyanya3-7" class="modal__link">
+                    <div class="ourservices-items-blocks novisibleblocks5 ">
+                        <img src="./img/услуги/няня 3-7 лет.jpeg" alt="Няня для ребенка 3-7 лет">
+                        <p>Няня для ребенка 3-7 лет </p>
+                    </div>
+                </a> 
+
+                <a href="#modal_nyanyasoprovojdeniya" class="modal__link"> 
+                    <div class="ourservices-items-blocks novisibleblocks6 ">
+                        <img src="./img/услуги/няня сопро.jpg" alt="Няня сопровождения">
+                        <p>Няня сопровождения </p>
+                    </div>
+                </a>
+
+                <a href="#modal_psixolog" class="modal__link"> 
+                    <div class="ourservices-items-blocks">
+                        <img src="./img/услуги/психолог (1).jpg" alt="Психолог">
+                        <p> Психолог </p>
+                    </div>
+                </a>
+
+                <a href="#modal_repetiotor" class="modal__link">
+                    <div class="ourservices-items-blocks  novisibleblocks7">
+                        <img src="./img/услуги/репетитор.jpg" alt="Репетиторы">
+                        <p><a href="#modal_repetiotor" class="modal__link">Репетиторы </p>
+                    </div>
+                </a> 
+
+                <a href="#modal_domrabot" class="modal__link"> 
+                    <div class="ourservices-items-blocks">
+                        <img src="./img/услуги/домработница.jpg" alt="Домработницы">
+                        <p>Домработницы </p>
+                    </div>
+                </a>
+
+                <a href="#modal_sidelka" class="modal__link"> 
+                    <div class="ourservices-items-blocks">
+                        <img src="./img/услуги/сиделка.jpg" alt="Сиделки">
+                        <p>Сиделки </p>
+                    </div>
+                </a>
+
+                <a href="#modal_driver" class="modal__link"> 
+                <div class="ourservices-items-blocks novisibleblocks0 " >
+                    <img src="./img/услуги/водитель.jpg" alt="Семейные водители">
+                    <p>Семейные водители </p>
+                </div>
+                </a>
+
+                <a href="#modal_hozpomosh" class="modal__link"> 
+                <div class="ourservices-items-blocks novisibleblocks3 ">
+                    <img src="./img/услуги/помощник по хозяйству.jpg" alt="Помощник по хозяйству">
+                    <p>Помощник по хозяйству </p></a>
+                </div>
+
+                <a href="#modal_upravliayushuixozyaystvom" class="modal__link"> 
+                    <div class="ourservices-items-blocks novisibleblocks4 ">
+                        <img src="./img/услуги/садовник.jpg" alt="Управляющий хозяйством">
+                        <p>Управляющий хозяйством </p>
+                    </div>
+                </a>
+
+        </div>
+        <h1 class="h1btn"><button id="visiblebtn"> Открыть весь список функционала </button></h1>
+
+        <!-- <a href="" style="text-decoration: none;"><button type="submit" class="request trigger"> Заказать персонал </button></a> -->
+        <center><button type="submit" class="trigger">Заказать персонал</button></center>
+        <div class="modal2">
+            <div class="modal-content">
+                <span class="close-button">❌</span>
+                <form action="" id="tg">
+                    <div class="form-content">
+                            <h3>Оформить заявку</h3> <br>
+                            <input type="text" name="name" placeholder="Имя*" id="form-name" required>
+                            <span class="namespan">Поле не заполнено или заполнено некорректно</span>
+
+                            <input type="tel" name="contact" placeholder="Номер телефона*" id="form-contact"  required>
+                            <span class="contactspan">Укажите номер в формате +7XXX или 8XXX</span>
+
+                            <input type="email" name="email" placeholder="Почта" id="form-email">
+                            <span class="emailspan">Поле не заполнено или заполнено некорректно</span>
+
+                            <input list="personal" name="personal" placeholder="Выбранный персонал" id="form-personal" required>
+                            <span class="personalspan">Поле не заполнено или заполнено некорректно</span>
+
+                            <datalist id="personal" >
+                                <option value="Няни">
+                                <option value="Репетиторы">
+                                <option value="Домработницы">
+                                <option value="Сиделки">
+                                <option value="Водители">
+                                <option value="Помощник по хозяйству"></option>
+                                <option value="Управляющий хозяйством"></option>
+                            </datalist>
+                            <textarea id="formmodaltextarea" name="textarea" cols="29" rows="5" placeholder="Пожелания"></textarea> <br>
+                            <button type="submit" id="form-button"> Отправить </button> <br>
+                            <span id="spanform"> <span style="color: green;">&#10004;</span> Заявка успешно отправлена <p> Наш менеджер свяжется с вами в ближайшее время</p> </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+                            <!-- MODALS MODALS MODALS -->   <!-- MODALS MODALS MODALS -->
+                            <!-- MODALS MODALS MODALS -->   <!-- MODALS MODALS MODALS -->
+                            <!-- MODALS MODALS MODALS -->   <!-- MODALS MODALS MODALS -->
+
+        <div id="modal_nynya" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/няня5.jpg" alt="Няни">
+                    <div class="modal__text">
+                        <h1>Няня</h1>
+                        <p> Это уникальная женщина, которая помогает маме и семье  сохранять свой ресурс. <br> <br>
+                            Как правило няни уже имеют жизненный  и профессиональный опыт. <br> <br>
+                            Няня знает какие потребности у ребенка на разных этапах развития <br>
+                            и помогает меме и семье обеспечить эти потребности.
+                           </p>
+                        <button class="modal-button-form1">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal_nynya_grud" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/няня грудничкаа.jpg" alt="Няня для грудничка">
+                    <div class="modal__text">
+                        <h1>Няня для грудничка</h1>
+                        <p>
+                                 Ребенок от рождения до года требует постоянного присмотра, ухода, соблюдения режима: <br> <br>
+                                <li class="modal_nynya_grud_li"> Поменять памперсы и одежку</li>
+                                <li class="modal_nynya_grud_li"> Покормить и попоить по запросу ребенка</li>
+                                <li class="modal_nynya_grud_li"> Уложить спать и укачать, когда ребенок беспокоится</li>
+                                <li class="modal_nynya_grud_li"> Гладить массажными движениями</li>
+                                <li class="modal_nynya_grud_li"> Петь ему песенки и агукать </li>
+                        </p>
+                        <button class="modal-button-form2">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal_guverner" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/гувернер.jpg" alt="Няня для ребенка до 3-х лет">
+                    <div class="modal__text">
+                        <h1>Няня для ребенка до 3-х лет</h1>
+                        <p>
+                            Питание, игры, прогулки, развивающие занятия, организация сна. <br> <br>
+                            Приучение к горшку, разговорный  и спортивный акцент в развитии. <br> <br>
+                            Ответы на возрастающий обьем вопросов от малыша.
+                            </p>
+                        <button class="modal-button-form3">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal_repetiotor" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/репетитор.jpg" alt="Репетиторы">>
+                    <div class="modal__text">
+                        <h1>Репетитор</h1>
+                        <p>Ими пестрят все многофункциональные сайты типа авито. 
+                            У нас тоже есть превосходные репетиторы.
+                            Наши репетиторы , как правило берут на себя несколько предметов. Например физика и математика. Биология и география. 
+                            Репетиторы , которые берут на себя несколько предметов и еще Иностранный язык-  относятся к  категории Розовых единорогов, и в наши дни уже не встречаются.
+                           </p>
+                        <button class="modal-button-form4">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal_domrabot" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/домработница.jpg" alt="Домработницы">
+                    <div class="modal__text">
+                        <h1>Домработница</h1>
+                        <p>Лучшее изобретение человечества. Наводит и сохраняет чистоту вашей квартиры. 
+                            Вам остается только поддерживать уют.
+                            В зависимости от ваших требований домработница может приходить к вам 1или 2 раза в неделю.  
+                             Стоит учесть, что мытье окон монтаж/демонтаж оконных портьер, штор, глажка белья - это отдельно оплачиваемые  задачи.  Зависят от размеров площади и высоты, сроков, материалов.
+                             </p>
+                        <button class="modal-button-form5">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="modal_sidelka" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/сиделка.jpg" alt="Сиделки">
+                    <div class="modal__text">
+                        <h1>Сиделка</h1>
+                        <p> 
+                            <li class="modal_sidelka_li"><strong>Сиделка- помощник по хозяйству </strong> <br>
+                                Приходит 1-2 раза в день, помогает прибрать квартиру, приготовить еду на 2-3 дня.
+                                </li>
+                            <li class="modal_sidelka_li"><strong>Сиделка постоянная </strong> <br>
+                                Наблюдает за пожилым или больным человеком, помогает ему в вопросах жизнеобеспечения.  Режим дня и гимнастика( по запросу).  Уход, гигиена,  контроль приема лекарств. Приборка квартиры, приготовление пищи и кормление.  
+                                Смена памперсов, обработка пролежней. 
+                                </li>
+                        </p>
+                        <button class="modal-button-form6">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal_hozpomosh" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/помощник по хозяйству.jpg" alt="Помощник по хозяйству">
+                    <div class="modal__text">
+                        <h1>Помощник по хозяйству</h1>
+                        <p>Могут  работать как Домработницы, и дополнительно следить за домашним хозяйством: покупать рядовые продукты, готовить еду, следить за гардеробом.
+                            Как правило этот человек работает на семью 5 дней в неделю, полный рабочий день. 
+                            </p>
+                        <button class="modal-button-form7">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal_upravliayushuixozyaystvom" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/садовник.jpg" alt="Управляющий хозяйством">>
+                    <div class="modal__text">
+                        <h1>Управляющий хозяйством </h1>
+                        <p>Имеет в подчинении 1-2  человека , которые помогают по хозяйству  и следит за домом в целом.  Большая ответственность и  высокая оплата. Чистота в доме, уход за гардеробом, готовая вкусная еда, эстетика блюда, режим дня детей и их образовательные проекты. Она отвечает за реализацию.</p>
+                        <button class="modal-button-form8">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="modal_povar" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/водитель.jpg" alt="">
+                    <div class="modal__text">
+                        <h1>Повар</h1>
+                        <p>человек, профессия которого является приготовление пищи.</p>
+                        <button class="modal_order">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal_coach" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="/img/водитель.jpg" alt="">
+                    <div class="modal__text">
+                        <h1>Коуч</h1>
+                        <p>специалист, имеющий специальное образование в области «коучинга», владеющий набором знаний в области устройства организации и психологии. Способный с помощью разнообразного психологического инструментария способствовать повышению качества жизни в рамках профессиональной деятельности клиента.</p>
+                        <button class="modal_order">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div id="#modal_psixolog" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/психолог.jpg" alt="">
+                    <div class="modal__text">
+                        <h1>Психолог</h1>
+                        <p>специалист, занимающийся изучением проявлений, способов и форм организации психических явлений личности в различных областях человеческой деятельности для решения научно-исследовательских и прикладных задач, а также с целью оказания психологической помощи, поддержки и сопровождения.</p>
+                        <button class="modal-button-form10">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+         <div id="modal_psixolog" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/психолог (1).jpg" alt="">
+                    <div class="modal__text">
+                        <h1>Психолог</h1>
+                        <p>Специалист, занимающийся изучением проявлений, способов и форм организации психических явлений личности в различных областях человеческой деятельности для решения научно-исследовательских и прикладных задач, а также с целью оказания психологической помощи, поддержки и сопровождения.</p>
+                        <button class="modal-button-form12">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div id="modal_nyanya3-7" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/няня 3-7 лет.jpeg" alt="Няня для ребенка 3-7 лет">
+                    <div class="modal__text">
+                        <h1>Няня для ребенка 3-7 лет</h1>
+                        <p>Няня , которая была с вами ранее или новая - продолжает  поддерживать режим, и всячески поощряет любопытство ребенка, его творческий потенциал.  <br>    
+                            В дело идут все возможные занятия в череде физически-активных и умственных: Лепка, рисование,  длинные пешие прогулки, вело-прогулки и т.д. А ближе к 6-7 годам- подготовка к школе, изучение алфавита и чтение, постановка руки при письме. <br>
+                            Так же могут быть моменты связанные с сопровождением ребенка на всевозможные кружки и секции.
+                           </p>
+                        <button class="modal-button-form9">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal_driver" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/водитель.jpg" alt="Семейные водители">
+                    <div class="modal__text">
+                        <h1>Семейный водитель.</h1>
+                        <p>Отвечает за доставку детей и ЧС 
+                            Человек  имеет два варианты работы:
+                            <li class="modal_driver_li">Найм на определенные маршруты , дни и часы.</li>
+                            <li class="modal_driver_li">Найм на полный рабочий день.</li>
+                             </p>
+                        <button class="modal-button-form10">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal_nyanyasoprovojdeniya" class="modal">
+            <a href="#header" class="modal__area"></a>
+            <div class="modal__body">
+                <div class="modal__content">
+                    <a href="#header"><span class="modal__close">❌</span></a>
+                    <img class="modal_img" src="./img/услуги/няня сопро.jpg" alt="Няня сопровождения">
+                    <div class="modal__text">
+                        <h1>Няня сопровождения</h1>
+                        <p> Тот человек, кто будет преданно ожидать вашего ребенка в кружках и секциях, а так же будет ходить с н6им от дома до секции и обратно и отвечать на все возможные 100 тысяч почему.</p>
+                        <button class="modal-button-form11">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <hr  id="price">
+        <br>
+        <h1 class="price_header" style="text-align: center;">Цены</h1>
+        <table>
+            <tbody>
+            <tr>
+                <td style="background-color: #00693E;"><p style="color: white;"><strong>Услуга</strong></p></td>
+                <td style="background-color: #00693E;"><p style="color: white;"><strong>Стоимость</strong></p></td>
+            </tr>
+            <tr>
+                <td><p>Няня</p></td>
+                <td><p>от 150 р/ч</p></td>
+            </tr>
+             <tr>
+                <td><p>Няня для грудничка</p></td>
+                <td><p>от 180 р/ч</p></td>
+            </tr>
+            <tr>
+                <td><p>Няня по сопровождению</p></td>
+                <td><p>от 150 р/ч</p></td>
+            </tr>
+            <tr>
+                <td><p>Гувернер</p></td>
+                <td><p>от 180 р/ч</p></td>
+            </tr>
+            <tr>
+                <td><p>Репетитор</p></td>
+                <td><p>от 300 р/ч</p></td>
+            </tr>
+            <tr>
+                <td><p>Домработница</p></td>
+                <td><p>от 100 р/ч или 1500 р/сут</p></td>
+            </tr>
+            <tr>
+                <td><p>Сиделка</p></td>
+                <td><p>от 800 р/ч</p></td>
+            </tr>
+            <tr>
+                <td><p>Помощник по хозяйству</p></td>
+                <td><p>от 600 р/ч</p></td>
+            </tr>
+            <tr>
+                <td><p>Садовник</p></td>
+                <td><p>цена договорная</p></td>
+            </tr>
+            <tr>
+                <td><p>Водитель</p></td>
+                <td><p>цена договорная</p></td>
+            </tr>
+            </tbody>
+        </table>
+         <h1 class="price-and-conditions">Стоимость услуг Агентства и порядок работ:</h1> <br>
+         <p class="dogovor">Мы работаем по договору. <br>
+             В договоре прописаны все условия и технические характеристики работ: где, с кем, в каком режиме, время работы и т.д.
+              При подписании договора вы оплачиваете наши услуги. </p> <br>
+         <h2 class="srokdogovora">Срок и цена договора:</h2> 
+         <table>
+            <tbody>
+                <tr>
+                    <td><p>До 1 месяца <span style="color: red;">*</span></p></td>
+                    <td><p>3000 руб.</p></td>
+                </tr>
+                <tr>
+                    <td><p>До 3 месяцев</p></td>
+                    <td><p>7000 руб.</p></td>
+                </tr>
+                <tr>
+                    <td><p>До 6 месяцев</p></td>
+                    <td><p>10000 руб</p></td>
+                </tr>
+                <tr>
+                    <td><p>До 9 месяцев</p></td>
+                    <td><p>12500 руб.</p></td>
+                </tr>
+                <tr>
+                    <td><p>До 12 месяцев</p></td>
+                    <td><p>14000 руб.</p></td>
+                </tr>
+                <tr>
+                    <td><p>Бессрочный <span style="color: red;">**</span></p></td>
+                    <td><p>15000 руб.</p></td>
+                </tr>
+                <tr>
+                    <td><p>Разовый услуги </p></td>
+                    <td><p>от 500 руб.</p></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="contract">
+            <p><span style="color: red;" >*</span> Договор на 1 мес. и менее может быть
+                заключен только на услуги сиделок.
+                При окончании срока действия текущего договора,
+                договор должен быть либо продлен (с выплатой агентского вознаграждения),
+                    либо расторгается в одностороннем порядке. Работник переводится на новое место работы. </p> <br>
+            <p>  <span style="color: red;">**</span> Срок гарантийной замены составляет один истечении этого срока работник не отзывается.</p> <br> <br>
+            <p class="lozung">Поверьте! Наш опыт и ответственность, а Ваше беспокойство за свой дом, семью, детей — стоят значительно дороже!</p>
+        </div>
+        <h2 class="algoraboty" >Алгоритм работы:</h2> 
+        <p  class="contract"><span style="color: red; font-weight: bold !important;">  Договор заключаем только по итогу подбора кандидата.</span> <br>
+            После получения вашей заявки мы представляем вам 2-4 кандидатов, 
+            наиболее подходящих под ваш запрос. Вы встречаетесь с кандидатами.
+            Возможно у вас дома, на нейтральной территории ( детская площадка, кофе, офис и т. д.) 
+            или же у нас в офисе по адресу г. Н. Новгород  ул Почаинская д. 17  оф. 205. 
+            На первой встрече проходит собеседование с работником и вы договариваетесь о пробных выходах для него.
+            <span style="color: red;">Пробные выходы – также оплачиваются! </span>После пробных выходов вы решаете, с кем из кандидатов вам комфортнее всего будет работать.
+            Только после того, как вы определились с кандидатом мы заключаем 3-х сторонний договор( Агентство-Клиент; Агентство-Работник; 
+            Клиент-Работник).</p> <br> 
+            <hr>
+            <!------------------------------ REVIEWS SLIDER ------------------------------->
+            <!------------------------------ REVIEWS SLIDER ------------------------------->
+            <!------------------------------ REVIEWS SLIDER ------------------------------->
+<section>
+    <div class="rt-container" id="reviews">
+        <div class="col-rt-12">
+            <div class="Scriptcontent">
+                 <div class="carrousel">
+                        <h2 class="review-title">Отзывы</h2>						
+                        <input type="radio" name="slides" id="radio-1" checked>
+                        <input type="radio" name="slides" id="radio-2">
+                        <input type="radio" name="slides" id="radio-3">
+                        <input type="radio" name="slides" id="radio-4">
+                        <ul class="slides">
+                        <li class="slide">
+                        <p>
+                           <q>Была задача купить квартиру для последующей сдачи в аренду. Обратилась в агентство Город по рекомендациям, очень довольна. Быстро подобрали несколько интересных вариантов, которые меня устроили.</q> 
+                          <span class="author">
+                            <img src="./img/иконки лиц отзывов/аватар 1.png" alt=""> 
+                            Михал Палыч Терентьев
+                          </span>
+                        </p>
+                       </li>        
+                        <li class="slide">
+                            <p>
+                                <q>Была задача купить квартиру для последующей сдачи в аренду. Обратилась в агентство Город по рекомендациям, очень довольна. Быстро подобрали несколько интересных вариантов, которые меня устроили.</q> 
+                               <span class="author">
+                                <img src="./img/иконки лиц отзывов/аватар 2.png" alt="">     
+                                Михал палыч Терентьев
+                               </span>
+                             </p>
+                       </li>
+                      <li class="slide">
+                        <p>
+                            <q>Была задача купить квартиру для последующей сдачи в аренду. Обратилась в агентство Город по рекомендациям, очень довольна. Быстро подобрали несколько интересных вариантов, которые меня устроили.</q> 
+                           <span class="author">
+                           <img src="./img/иконки лиц отзывов/аватар 3.png" alt="">
+                           Михал палыч Терентьев
+                           </span>
+                         </p>
+                      </li>
+                      <li class="slide">
+                        <p>
+                            <q>Была задача купить квартиру для последующей сдачи в аренду. Обратилась в агентство Город по рекомендациям, очень довольна. Быстро подобрали несколько интересных вариантов, которые меня устроили.</q> 
+                           <span class="author">
+                            <img src="./img/иконки лиц отзывов/аватар 4.png" alt="">                       
+                            Михал палыч Терентьев
+                           </span>
+                         </p>
+                       </li>
+                       
+                        </ul>
+                        <div class="slidesNavigation">
+                            <label for="radio-1" id="dotForRadio-1"></label>
+                            <label for="radio-2" id="dotForRadio-2"></label>
+                            <label for="radio-3" id="dotForRadio-3"></label>
+                            <label for="radio-4" id="dotForRadio-4"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <!------------------------------ CONTACTS ------------------------------->
+            <!------------------------------ CONTACTS ------------------------------->
+            <!------------------------------ CONTACTS ------------------------------->
+            <hr>
+            <div class="contacts" id="contacts">
+                <div class="contacts_title"><h1>Контакты</h1></div>
+                <div class="adress_smm">
+                    <div class="adress"><p>Контактный телефон:<br> +7-(950)-608-10-83</p></div>
+                    <div class="smm">
+                        <ul class="smm_items">
+                            <li><a href="#"><img src="./img/иконки/OK.png" alt="OK"></a></li>
+                            <li><a href="https://vk.com/governer"><img src="./img/иконки/vk.png" alt="VK"></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=89506081083"><img src="./img/иконки/whatsapp.png" alt="WP"></a></li>
+                            <li><a href="viber://add?number=89506081083"><img src="./img/иконки/viber.png" alt="VB"></a></li>
+                            <li><a href="#"><img src="./img/иконки/telegram.png" alt="TG"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="yndmap">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3be1e8cb0625c4d151fc56bb8ce0dea0bb0027d03c99464dfa5b001371c23c2c&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div class="cback">
+                <style>
+                  .cback-circle {
+                    background: #3CB868;
+                    color: #3CB868;
+                  }
+                </style>
+                <a href="tel:+79506081083">
+                  <div class="cback-circle fn1"></div>
+                  <div class="cback-circle fn2"></div>
+                  <div class="cback-circle cback-circle--phone">
+                    <i class='phone-icon'></i>
+                    <span style="display:none">КНОПКА<br>СВЯЗИ</span>
+                  </div>
+                </a>
+              </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="logofooter">
+                <a href="#main_header">Педагогическое агентство Гувернер</a>
+            </div>
+            <div class="footer-items">
+                <a href="#ourservices"><li>Заказать персонал</li></a>
+                <a href="#price"><li>Цены</li></a>
+                <a href="./polezonoe.html"><li>О нас</li></a>
+                <a href="./job.html #vakansii"><li>Вакансии</li></a>
+                <a href="#reviews"><li>Отзывы</li></a>
+                <a href="#contacts"><li>Контакты</li></a>
+            </div>
+        </div>
+    </footer> 
+    <script src="./script.js"></script>
+    <script src="./modalvalid.js"></script>
+    <script src="./sendform+validform.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+.content_onas{
+    max-width: 1600px;
+    min-height: 300px;
+    padding: 0 10%;
+}
+.upper{
+    
+    font-style: normal; 
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.lower{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.right, .left{
+
+   text-align: center;
+   padding: 20px;
+   
+}
+.lower img{
+    
+    height: 80px;
+}
+
+ul{
+    list-style: none;
+}
+
+.nashisotr ul{
+    padding: 20px 10%;
+    font-size: 20px;
+}
+
+.nashi{
+    display: flex;
+    justify-content: center;
+    background-color: #00693d3c;
+    
+}
+.nashi div{
+    text-align: left;
+    
+}
+.nashi h3{
+    text-align: center;
+   
+}
+.nashi li{
+    padding-top: 5px;
+}
+a{
+    text-decoration: none;
+    /* text-decoration: underline #00693e; */
+}
+a:hover{
+    color: #00693e;
+    font-weight: bold;
+    text-decoration: underline #00693e;
+}
+.podrobno{
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    margin: 0px 10%;
+    font-weight: bolder;
+    color: rgb(130, 56, 56);
+}
+
+

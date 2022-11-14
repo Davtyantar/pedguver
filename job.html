@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="job.css">
+    <link rel="stylesheet" href="/mediaqueries.css">
+    <link rel="stylesheet" href="headerfooter.css">
+    <link rel="stylesheet" href="/modals.css">
+    <script src="./script.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    
+    <title>Вакансии - Педагогическое агентство Гувернер </title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="burger">
+        <label for="burger">
+            <svg width="30" height="30" fill="none" viewBox="0 0 24 24"
+             class="IconStyled__StyledIcon-sc-pzfg42-0 iBRIKg" style="margin-top: 6px; ">
+             <rect x="3" y="4" width="18" height="2" rx="1" fill="#fff"></rect>
+             <rect x="3" y="11" width="18" height="2" rx="1" fill="#fff"></rect>
+             <rect x="3" y="18" width="18" height="2" rx="1" fill="#fff"></rect>
+            </svg>
+        </label>
+        <nav id = "menu">
+            <ul id="header_menu">
+                <a href="./index.html"><img id="logo" src="./img/logo-PhotoRoom.png" alt="Лого" style="width: 120px; margin-right: 20px;"></a>
+                <a href="index.html#ourservices"><li>Заказать персонал</li></a> 
+                <a href="index.html#price"><li>Цены</li></a> 
+                <a href="./polezonoe.html"><li>О нас</li></a>
+                <a href="/job.html"><li>Вакансии</li></a>
+                <a href="index.html#otz"><li>Отзывы</li></a> 
+                <a href="index.html#contacts"><li>Контакты</li></a> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <div class="content"><br>
+            <h1 style="text-align: center;">Заполните анкету соискателя</h1>
+            
+            <div class="form-container">
+                <form id="job" name="job">
+                    <div class="form_first">
+                            <div class="custominp">
+                            <h2 id="form_title">Контактные данные :  </h2><br>
+
+                            <div class="form-line" data-validate>
+                            <label for="fio">ФИО <span style="color: red;" >*</span></label><br>
+                            <input type="text" name="fio" onkeypress="delNum(event)" required >
+                            <br></div>
+                            <div class="form-line"  data-validate>
+                            <label for="brtd">Дата рождения <span style="color: red;">*</span></label><br>
+                            <input  type="date" name="brtd" id="brtd" required ><br></div>
+                            
+                            <label for="email">E-mail</label><br>
+                            <input type="email" name="email" ><br>
+
+                            <div class="form-line"  data-validate>
+                            <label for="tel">Контактный телефон <span style="color: red;">*</span></label><br>
+                            <input type="tel" name="tel"  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"  required ><br><br><br></div>
+                            
+                            
+                            <h2 id="form_title">Информация о вас :  </h2><br>
+                            <label for="grad">Ваше образование:</label><br>
+                            <textarea type="text" name="grad" id="grad"></textarea><br>
+
+
+                            <label for="opit">Ваш жизненный опыт: </label><br>
+                            <textarea type="text" name="opit" id="opit"></textarea><br>
+                            <label for="hobbie">Ваши привычки, хобби</label><br>
+                            <textarea type="text" name="hobbie" id="hobbie"></textarea><br>
+                            <label for="">Что лучше всего получается делать</label><br>
+                            <textarea type="text" name="best" id="best"></textarea><br>
+                            </div>
+                            <div class="file">
+                                <label id="formfile" for="formfile">Прикрепите ваше фото</label><br><br>
+                                <input type="file" name="document" id="formfile">
+                            </div><br><br>
+
+
+                          
+                                
+                          
+                    </div>
+                        <h2 style="text-align: center;">Вакансия, на которую претендуете</h2><br><br>
+                        <div class="form_second">
+                            <div class="choice">
+                    
+                                <input type="checkbox" class="custom_checkbox" value="Няня" id="nyanya">
+                                <label for="nyanya" >Няня</label><br>
+                                
+                                <input type="checkbox" class="custom_checkbox" value="Гувернер" id="guv714"> 
+                                <label for="guv714" >Гувернер</label><br>
+                                
+                                <input type="checkbox" class="custom_checkbox" value="Сиделка" id="pomoshPoXoz"> 
+                                <label for="pomoshPoXoz" >Сиделка</label><br>
+                                
+                                <input type="checkbox" class="custom_checkbox" value="Домбработница" id="upravl"> 
+                                <label for="upravl" >Домбработница</label><br>
+                                
+                                <input type="checkbox" class="custom_checkbox" value="Повар" id="povar"> 
+                                <label for="povar" >Повар</label><br>
+
+                                
+                                <input type="checkbox" class="custom_checkbox"value="Водитель" id="voditel"> 
+                                <label for="voditel" >Водитель</label><br>
+                            </div> 
+                        </div>
+                        <center><button id="tgJob" type="submit" onclick="send()">Отправить</button></center>
+                        <span id="spanform" style="color: green;" > &#10004; Заявка успешно отправлена <p> Наш менеджер свяжется с вами в ближайшее время</p> </span>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="logofooter">
+                <a href="#main_header">Педагогическое агентство Гувернер</a>
+            </div>
+            <div class="footer-items">
+                <a href="#ourservices"><li>Заказать персонал</li></a>
+                <a href="#price"><li>Цены</li></a>
+                <a href="./polezonoe.html"><li>О нас</li></a>
+                <a href="./job.html #vakansii"><li>Вакансии</li></a>
+                <a href="#reviews"><li>Отзывы</li></a>
+                <a href="#contacts"><li>Контакты</li></a>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/sendformJob.js"></script>
+    <script src="/sendfile.js"></script>
+    
+    
+</body>
+
+</html>

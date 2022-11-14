@@ -1,0 +1,273 @@
+    html {
+    scroll-behavior: smooth;
+    background-color: rgb(240, 253, 237);
+    transition: .2s linear;
+    box-sizing: border-box;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 1600px;
+    min-width: 420px;
+    background-color: rgb(255, 255, 255);
+}
+
+#main_header {
+    margin: 0px auto;
+    width: 100%;
+    
+    justify-content: center;
+
+}
+
+#contacts_header {
+    margin: 0px auto;
+    width: 100%;
+    justify-content: center;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline-start: 0px;
+    margin: 0px auto;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+header nav {
+    position: fixed;
+    width: 100% ;
+    left: 0;
+    background-color: #00693E;
+    transition: 1.3s;
+    
+}
+
+
+header nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav  ul li {
+    padding:10px 30px 10px 30px;
+    font-weight:bolder;
+    transition: 1.5s;
+}
+header nav  ul li:hover {
+    border-bottom: 1px solid white;
+    transition: 7s;
+}
+
+
+
+.svgburger:hover {
+    cursor: pointer;
+}
+
+
+
+
+a, button:hover {
+    cursor: pointer;
+}
+
+.menuScrollBgColor {
+    background-color:  #00693E;
+    z-index: 10;
+    transition: 1.3s;
+}
+
+#burger, [for = burger] {
+    display: none;
+}
+
+@media screen and (max-width: 1250px) {
+    .callback {
+        font-size: 12px;
+    }
+    .callback_image img {
+    max-width: 100px;
+    }
+    .callback p {
+    padding: 4px;
+    }          
+}
+
+@media screen and (max-width: 1150px) {
+    header nav ul li {
+        font-size: 15px;
+        font-weight: bold;
+        padding:5px 20px 5px 20px;
+    }
+    .advantages_blocks div {
+        width: 40% !important;
+        text-align: center;
+        margin: 15px;
+    }
+    [for = burger] {
+        display: block;
+        position: fixed;
+        width: 30px;
+        text-align: center;
+        right: 50px;
+        top: 15px;
+        z-index: 11;
+        transition: 1.3s;
+    }
+    #burger:checked + label + nav ul li {
+        display: block;
+        transition: 1.3s;
+        z-index:100 ;
+    }
+    nav ul li {
+        display: none;
+    }
+    header nav ul {
+        display: block;
+        text-align: center;
+        transition: 1.3s;
+    }
+    header nav ul li:nth-last-child() {
+        margin-bottom: 5px;
+    }
+     #logo {
+        width: 80px !important;
+        margin-left: 20px;
+    }
+}
+
+
+
+footer {
+    width: 100% !important;
+    background-color: #00693E;
+    color: white;
+    /* left: 0px !important; */
+}
+.footer-items a {
+    text-decoration: none;    
+} 
+
+.logofooter a {
+    color: white;
+    text-decoration: none;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-weight: 500;
+}
+.footer-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-items li { 
+    color: white;
+    border-right: 1px solid white; 
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    padding: 2px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

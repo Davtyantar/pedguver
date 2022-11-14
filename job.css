@@ -1,0 +1,129 @@
+
+
+.content{
+    margin-left: 10px;
+    margin-top: 90PX;
+    position: relative;
+    min-height: 1750PX;
+
+}
+form{
+    /* padding-left: 40px; */
+    position:absolute;  left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-10%, -10%);
+    transform: translate(-50%, 0%);
+    /* justify-items: center; */
+}
+
+input{
+  outline: none;
+}
+input:hover,textarea:hover{
+  outline: 2px solid rgb(107, 107, 107);
+}
+input[type="file"] {
+  outline: none !important;
+}
+
+
+.custominp label, button, #filelabel, .file label { 
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 10px;
+
+}
+
+
+.custominp input, textarea{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    text-align: center;
+    max-width: 350px;
+    min-width: 350px;
+    height: 35px;
+    background: rgba(0, 105, 62, 0.09);
+    border-radius: 10px;
+    border:none ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+.emptyInput{
+  border: 3px solid rgba(233, 111, 111, 0.806) !important;  
+}
+
+form span{
+  position: relative;
+  color: red;
+}
+
+.custom_checkbox {  
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .custom_checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .custom_checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 20%;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  .custom_checkbox:checked+label::before {
+    
+    background-color: #00693d9e;
+    background-image: url(/img/иконки/V.png);
+}
+
+
+
+
+.custom_checkbox:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #00693d5b;
+    background-color: #00693d33;
+  }
+
+  button{
+    width: 200px;
+    height: 50px;
+    background-color: #00693d33;
+    border: none;
+    border-radius: 135px;
+    margin: 40px auto;
+    text-align: center;
+    align-items: center;
+    
+  }
+  button:hover{
+    background-color: #00693d69;
+    border: none;
+    color: white;
+  }
+  button:active{
+    background-color: #00693db0;
+    border: none;
+  }
+
+  .form_second li{
+    list-style: none;
+    display: inline-block;
+  }
+
